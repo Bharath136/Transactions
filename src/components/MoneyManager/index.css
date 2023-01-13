@@ -1,0 +1,144 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 20px;
+  }
+}
+
+.cards-container {
+  width: 80%;
+}
+@media screen and (max-width: 768px) {
+  .cards-container {
+    width: 100%;
+  }
+}
+.money-manager-card {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  padding: 40px;
+  background-size: cover;
+  border-radius: 12px 12px 12px 12px;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 768px) {
+  .money-manager-card {
+    padding: 15px;
+    text-align: center;
+  }
+}
+
+.money-manager {
+  font-size: 44px;
+  font-family: 'Roboto';
+  color: #475569;
+}
+@media screen and (max-width: 768px) {
+  .money-manager {
+    font-size: 20px;
+  }
+}
+
+.message {
+  font-size: 20px;
+  color: #7e858e;
+  font-weight: 500;
+}
+.span {
+  color: #0b69ff;
+}
+@media screen and (max-width: 768px) {
+  .message {
+    font-size: 14px;
+  }
+}
+
+.forms-container {
+  margin-top: 20px;
+  display: flex;
+}
+@media screen and (max-width: 768px) {
+  .forms-container {
+    flex-direction: column;
+  }
+}
+.form-container {
+  border: 1px solid grey;
+  padding: 20px 40px;
+  /* flex-grow: 1; */
+  width: 43%;
+  border-radius: 10px;
+}
+@media screen and (max-width: 768px) {
+  .form-container {
+    width: 100%;
+    padding: 20px 20px;
+  }
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 26px;
+}
+.label {
+  color: #7e858e;
+  margin-bottom: 4px;
+}
+input {
+  padding: 10px;
+  outline: none;
+}
+.select {
+  padding: 10px;
+  outline: none;
+}
+.button {
+  background-color: #0b69ff;
+  outline: none;
+  border: 0;
+  height: 34px;
+  width: 66px;
+  color: white;
+  margin: 20px 0px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 40px 0px;
+}
+.history-table-container {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  /* flex-grow: 1; */
+  width: 57%;
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 20px;
+}
+@media screen and (max-width: 768px) {
+  .history-table-container {
+    margin-left: 0;
+    margin-top: 20px;
+    width: 100%;
+  }
+}
+
+.history-container {
+  list-style-type: none;
+  padding: 0;
+}
+.header-list {
+  display: flex;
+  border: 1px solid gray;
+  padding: 0px 10px;
+}
+.head {
+  flex-grow: 1;
+}
+.heading {
+  font-size: 24px;
+  color: #475569;
+}

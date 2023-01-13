@@ -1,0 +1,28 @@
+.transaction-list {
+  display: flex;
+  border: 1px solid grey;
+  align-items: center;
+  padding: 0px 10px;
+  border-top: 0;
+}
+.item {
+  flex-grow: 1;
+}
+
+.delete-btn {
+  background-color: transparent;
+  height: 30px;
+  width: 0;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+.img {
+  height: 30px;
+  width: 30px;
+}
+.head {
+  color: #475569;
+  font-size: 18px;
+  font-weight: 700;
+}

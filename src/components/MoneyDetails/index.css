@@ -1,0 +1,71 @@
+.money-details-container {
+  display: flex;
+}
+@media screen and (max-width: 768px) {
+  .money-details-container {
+    flex-direction: column;
+  }
+}
+.balance-card {
+  flex-grow: 1;
+  flex-shrink: 1;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 12px;
+  color: #7e858e;
+}
+@media screen and (max-width: 768px) {
+  .balance-card {
+    padding: 15px;
+  }
+}
+.balance {
+  margin-bottom: 0;
+}
+.amount {
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 0;
+}
+.image {
+  height: 60px;
+}
+@media screen and (max-width: 768px) {
+  .image {
+    height: 50px;
+  }
+}
+
+.total {
+  background-color: #ecfccb;
+  margin-right: 5%;
+  border: 1px solid #84cc16;
+}
+.income {
+  background-color: #cffafe;
+  margin-right: 5%;
+  border: 1px solid #06b6d4;
+}
+.expenses {
+  background-color: #ede9fe;
+  border: 1px solid #7c3aed;
+}
+
+@media screen and (max-width: 768px) {
+  .total {
+    margin-left: 0;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  .income {
+    margin-left: 0;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  .expenses {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+}
